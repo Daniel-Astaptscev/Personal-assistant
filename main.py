@@ -73,7 +73,7 @@ class MainWindow(QMainWindow):
         self.webEngineView_server = QWebEngineView()
         page_server = WebEnginePage(self.webEngineView_server)
         self.webEngineView_server.setPage(page_server)
-        self.webEngineView_server.load(QUrl("http://212.32.214.210/"))
+        self.webEngineView_server.load(QUrl("https://www.google.com/"))
         self.ui.TabWindow.insertTab(4, self.webEngineView_server, "Телеметрия")
 
         self.ui.webBook.load(QtCore.QUrl.fromLocalFile(r"C:\\Users\\User01\\Desktop\\Персональный помощник\\данные\\сайт\\site.html"))
