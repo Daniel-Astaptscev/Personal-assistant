@@ -114,7 +114,7 @@ class MainWindow(QMainWindow):
         elif tab_text == "МКА Реформа ЖКХ":
             self.webEngineView_mka.load(QUrl("https://аис.фрт.рф/"))
         elif tab_text == "Телеметрия":
-            self.webEngineView_server.load(QUrl("http://212.32.214.210/"))
+            self.webEngineView_server.load(QUrl("https://www.google.com/"))
     def update_engeneer(self):
         try:
             engeneer_1, engeneer_2 = check_engeneer()
